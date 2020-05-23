@@ -1,0 +1,259 @@
+A:  WBCA NAU8822 Version V.1.601
+D:  WBCA NAU8822 Version V.1.601
+A:  Switch: TC65i --> PCM/I2S 1.8V Level
+D:  Switch: TC65i --> PCM/I2S 1.8V Level
+A: Press ? for help!
+D: Press ? for help!
+A: > BCLK Frequency measured: 0.000kHz
+A: > OK
+D: > IMCLK source: intern, set to 4.096MHz
+D: > BCLK Frequency measured: 0.000kHz
+D: > OK
+
+Test logfile from 30.08.2018
+A: slave
+A: > OK
+B: ATI
+B: Cinterion
+B: EHS8
+B: REVISION 03.510
+B: OK
+B: AT^SAIC=1,"","","",0,0,1,0,0
+B: OK
+B: AT^SNFS=1
+B: OK
+B: AT+COPS=0
+B: OK
+C: ATI
+C: Cinterion
+C: EHS8
+C: REVISION 03.510
+C: OK
+C: AT^SAIC=1,"","","",0,0,1,0,0
+C: OK
+C: AT+cpin="1111"
+C: ERROR
+C: AT^SNFS=1
+C: OK
+C: AT+COPS=0
+C: OK
+D: slave
+D: > OK
+B: atd8521391660436;
+B: OK
+C: RING
+C: ata
+C: OK
+D: DSP=off
+D: > OK
+D: DSP=detect, netw
+D: > continuously listen to sound and trying to detect frequencies
+D: > OK
+A: SINUS=750Hz, 200ms, -8dB, netw
+A: > OK
+D: > netw: f= 750Hz, -15dB, 192msec detected
+A: SINUS=750Hz, 200ms, -8dB, netw
+A: > OK
+D: > netw: f= 750Hz, -14dB, 192msec detected
+A: SINUS=750Hz, 200ms, -8dB, netw
+A: > OK
+D: > netw: f= 750Hz, -14dB, 192msec detected
+A: SINUS=750Hz, 200ms, -8dB, netw
+A: > OK
+D: > netw: f= 750Hz, -24dB, 32msec detected
+D: > netw: f= 750Hz, -19dB, 128msec detected
+A: SINUS=750Hz, 200ms, -8dB, netw
+A: > OK
+D: > netw: f= 750Hz, -14dB, 192msec detected
+A: SINUS=750Hz, 200ms, -8dB, netw
+A: > OK
+D: > netw: f= 750Hz, -14dB, 192msec detected
+A: SINUS=750Hz, 200ms, -8dB, netw
+A: > OK
+D: > netw: f= 750Hz, -14dB, 192msec detected
+A: SINUS=750Hz, 200ms, -8dB, netw
+A: > OK
+D: > netw: f= 750Hz, -14dB, 192msec detected
+A: SINUS=750Hz, 200ms, -8dB, netw
+A: > OK
+D: > netw: f= 750Hz, -14dB, 192msec detected
+A: SINUS=750Hz, 200ms, -8dB, netw
+A: > OK
+D: > netw: f= 750Hz, -14dB, 192msec detected
+D: DSP=OFF
+A: SINUS=OFF
+D: > OK
+A: > OK
+Result_MO_send:9
+A: DSP=off
+A: > OK
+A: DSP=detect, netw
+A: > continuously listen to sound and trying to detect frequencies
+A: > OK
+D: SINUS=750Hz, 200ms, -8dB, netw
+D: > OK
+A: > netw: f= 750Hz, -14dB, 192msec detected
+D: SINUS=750Hz, 200ms, -8dB, netw
+D: > OK
+A: > netw: f= 750Hz, -14dB, 192msec detected
+D: SINUS=750Hz, 200ms, -8dB, netw
+D: > OK
+A: > netw: f= 750Hz, -14dB, 176msec detected
+D: SINUS=750Hz, 200ms, -8dB, netw
+D: > OK
+A: > netw: f= 750Hz, -14dB, 192msec detected
+D: SINUS=750Hz, 200ms, -8dB, netw
+D: > OK
+A: > netw: f= 750Hz, -14dB, 192msec detected
+D: SINUS=750Hz, 200ms, -8dB, netw
+D: > OK
+A: > netw: f= 750Hz, -14dB, 176msec detected
+D: SINUS=750Hz, 200ms, -8dB, netw
+D: > OK
+A: > netw: f= 750Hz, -14dB, 176msec detected
+D: SINUS=750Hz, 200ms, -8dB, netw
+D: > OK
+A: > netw: f= 750Hz, -14dB, 192msec detected
+D: SINUS=750Hz, 200ms, -8dB, netw
+D: > OK
+A: > netw: f= 750Hz, -14dB, 160msec detected
+D: SINUS=750Hz, 200ms, -8dB, netw
+D: > OK
+A: > netw: f= 750Hz, -14dB, 176msec detected
+A: DSP=OFF
+D: SINUS=OFF
+A: > OK
+D: > OK
+Result_MT_send:10
+B: ath
+B: OK
+C: NO CARRIER
+B: at+cfun=1,1
+B: OK
+C: at+cfun=1,1
+C: OK
+B: ^SYSLOADING
+C: ^SYSLOADING
+C: ^SYSSTART
+B: ^SYSSTART
+B: +PBREADY
+A: slave
+A: > OK
+C: ATI
+C: Cinterion
+C: EHS8
+C: REVISION 03.510
+C: OK
+C: AT^SAIC=1,"","","",0,0,1,0,0
+C: OK
+C: AT+cpin="1111"
+C: OK
+C: AT^SNFS=1
+C: OK
+C: AT+COPS=0
+C: ERROR
+B: ATI
+B: Cinterion
+B: EHS8
+B: REVISION 03.510
+B: OK
+B: AT^SAIC=1,"","","",0,0,1,0,0
+B: OK
+B: AT+cpin="1111"
+B: ERROR
+B: AT^SNFS=1
+B: OK
+B: AT+COPS=0
+B: OK
+D: slave
+D: > OK
+C: +PBREADY
+C: atd8521391660387;
+C: OK
+B: RING
+B: ata
+B: OK
+D: DSP=off
+D: > OK
+D: DSP=detect, netw
+D: > continuously listen to sound and trying to detect frequencies
+D: > OK
+A: SINUS=750Hz, 200ms, -8dB, netw
+A: > OK
+D: > netw: f= 750Hz, -14dB, 192msec detected
+A: SINUS=750Hz, 200ms, -8dB, netw
+A: > OK
+D: > netw: f= 750Hz, -14dB, 192msec detected
+A: SINUS=750Hz, 200ms, -8dB, netw
+A: > OK
+D: > netw: f= 750Hz, -14dB, 192msec detected
+A: SINUS=750Hz, 200ms, -8dB, netw
+A: > OK
+D: > netw: f= 750Hz, -14dB, 192msec detected
+A: SINUS=750Hz, 200ms, -8dB, netw
+A: > OK
+D: > netw: f= 750Hz, -14dB, 192msec detected
+A: SINUS=750Hz, 200ms, -8dB, netw
+A: > OK
+D: > netw: f= 750Hz, -14dB, 192msec detected
+A: SINUS=750Hz, 200ms, -8dB, netw
+A: > OK
+D: > netw: f= 750Hz, -15dB, 192msec detected
+A: SINUS=750Hz, 200ms, -8dB, netw
+A: > OK
+D: > netw: f= 750Hz, -14dB, 208msec detected
+A: SINUS=750Hz, 200ms, -8dB, netw
+A: > OK
+D: > netw: f= 750Hz, -14dB, 192msec detected
+A: SINUS=750Hz, 200ms, -8dB, netw
+A: > OK
+D: > netw: f= 750Hz, -14dB, 192msec detected
+D: DSP=OFF
+A: SINUS=OFF
+D: > OK
+A: > OK
+Result_MO_send:10
+A: DSP=off
+A: > OK
+A: DSP=detect, netw
+A: > continuously listen to sound and trying to detect frequencies
+A: > OK
+D: SINUS=750Hz, 200ms, -8dB, netw
+D: > OK
+A: > netw: f= 750Hz, -14dB, 176msec detected
+D: SINUS=750Hz, 200ms, -8dB, netw
+D: > OK
+A: > netw: f= 750Hz, -14dB, 192msec detected
+D: SINUS=750Hz, 200ms, -8dB, netw
+D: > OK
+A: > netw: f= 750Hz, -14dB, 176msec detected
+D: SINUS=750Hz, 200ms, -8dB, netw
+D: > OK
+A: > netw: f= 750Hz, -14dB, 192msec detected
+D: SINUS=750Hz, 200ms, -8dB, netw
+D: > OK
+A: > netw: f= 750Hz, -14dB, 192msec detected
+D: SINUS=750Hz, 200ms, -8dB, netw
+D: > OK
+A: > netw: f= 750Hz, -15dB, 128msec detected
+D: SINUS=750Hz, 200ms, -8dB, netw
+D: > OK
+A: > netw: f= 750Hz, -14dB, 176msec detected
+D: SINUS=750Hz, 200ms, -8dB, netw
+D: > OK
+A: > netw: f= 750Hz, -15dB, 176msec detected
+D: SINUS=750Hz, 200ms, -8dB, netw
+D: > OK
+A: > netw: f= 750Hz, -20dB, 112msec detected
+D: SINUS=750Hz, 200ms, -8dB, netw
+D: > OK
+A: > netw: f= 750Hz, -14dB, 192msec detected
+D: SINUS=OFF
+A: DSP=OFF
+D: > OK
+A: > OK
+Result_MT_send:8
+C: ath
+C: OK
+Script A finished
+B: NO CARRIER

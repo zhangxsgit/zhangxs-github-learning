@@ -1,0 +1,11 @@
+    diagram = mylib.diagram(headline,x_max=100,...)
+    diagram.x_min  = 0
+    diagram.x_tick = 20
+    diagram.x_max  = 100
+    diagram.y_min  = 0
+    diagram.y_tick = 20
+    diagram.y_max  = 100
+    diagram.w_width  = 450
+    diagram.h_height = 200
+    diagram.redraw()
+    diagram.plot_point(x=20, y=60, color='blue')
